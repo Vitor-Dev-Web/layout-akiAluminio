@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    /*background: cadetblue;*/
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img{
+    flex: 20%;
+    /*border: 1px solid black;*/
+    text-align: left;
+    text-align: left;
+    margin-left: 6%;
+}
+
+.menu{
+    flex: 60%;
+    text-align: center;
+    /*border: 1px solid deeppink;*/
+    text-align: right;
+    margin-right: 10%;
+}
+
+.menu a{
+    color: rgb(0, 94, 255);
+    text-decoration: none;
+    margin: 4%;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu a:hover{
+    border-bottom: 5px solid rgb(0, 94, 255);
+}
+
+.dark-theme{
+    margin: 0%;
+    display: flex;
+    justify-content: left;
+    padding-left: 15%;
+    /*border: 1px solid black;*/
+    cursor: pointer;   
+}
+
+#btn-suporte{
+    color: white;
+    padding: 13px 25px;
+    border: none;
+    background: rgb(44, 85, 156);
+    border-radius: 5px;
+}
+
+#btn-suporte:hover{
+    color: white;
+    background: black;
+}
+
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    /*background: cadetblue;*/
+}
+
+.headline{
+    flex: 42%;
+    /*border: 1px solid black;*/
+    margin-left: 10%;
+    margin-right: 5%;
+    text-align: start;
+} 
+
+.headline h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(44, 85, 156);
+    font-weight: 900;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.headline p{
+    color: gray;
+    margin-bottom: 20px;
+}
+
+#btn-contact{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-block;
+    background: rgb(44, 85, 156);
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+#btn-contact:hover{
+    color: white;
+    background: black;
+}
+
+.img-headline{
+    flex: 40%;
+    /*border: 1px solid deeppink;*/
+    padding-top: 25px;
+}
+
+section{
+    display: inline-block;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+}
+
